@@ -1,0 +1,10 @@
+:ClrHome
+:Disp "Z-Score test"
+:Input "Average?",U
+:Input "xvar",X
+:Input "Sigma", O
+:Input "N",N
+:A→X-U
+:B→A/O
+:C→B/N^(1/2)
+:Disp "Output: ",C
